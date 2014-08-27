@@ -23,7 +23,8 @@ function mostrar ()
 {
 	listaPoke[selecccion].gritar();
 	document.getElementById("imagenPokemon").innerHTML = listaPoke[selecccion].imagen;
-	nombrePokemon.innerText = "Nombre: "+listaPoke[selecccion].nombre +"\n"+ 
+	//nombrePokemon.innerText = nombrePokemon.textContent para que funcione en Firefox
+	nombrePokemon.innerText = nombrePokemon.textContent = "Nombre: "+listaPoke[selecccion].nombre +"\n"+ 
 							  "Vida: " + listaPoke[selecccion].vida +"\n"+
 							  "Ataque: " + listaPoke[selecccion].ataque;
 	
