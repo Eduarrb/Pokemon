@@ -1,12 +1,3 @@
-
-// function mostrar(pos)
-// {
-// 	document.write(pos.coords.latitude  + "," + pos.coords.longitude + "</br>");
-// }
-// navigator.geolocation.getCurrentPosition(mostrar);
-
-
-
 function Pokemon(g,n,v,a,img)
 {
 	this.grito = g;
@@ -35,36 +26,5 @@ function mostrar ()
 	nombrePokemon.innerText = "Nombre: "+listaPoke[selecccion].nombre +"\n"+ 
 							  "Vida: " + listaPoke[selecccion].vida +"\n"+
 							  "Ataque: " + listaPoke[selecccion].ataque;
-	// if(selecccion == 0)
-	// {
-	// 	pikachu.gritar();
-	// }
-	// else if(selecccion == 1)
-	// {
-	// 	bulbasour.gritar();
-	// 	document.getElementById("imagenPokemon").innerHTML = bulbasour.imagen;
-	// 	nombrePokemon.innerText = "Nombre: "+bulbasour.nombre +"\n"+ "Vida: " + bulbasour.vida;
-	// }
-}
-
-
-// function inicio()
-// {
 	
-// }
-
-// function Pokemon(nombrePoke, tipoPoke, vidaPoke, ataPoke)
-// {
-// 	var estructuraPokemon = 
-// 	{
-// 		nombre: nombrePoke,
-// 		tipo: tipoPoke,
-// 		vida: vidaPoke,
-// 		ataque: ataPoke
-// 	};
-// 	return estructuraPokemon;
-// }
-
-// var pikachu = Pokemon("Pikachu", "Eléctrico", 100, 55);
-// var bulbasour = Pokemon("Bulbasour", "Agua", 90, 50);
-// console.log(pikachu);
+}
